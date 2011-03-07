@@ -22,26 +22,26 @@ if version > 580
 endif
 let g:colors_name="focuspoint"
 
-hi Boolean         guifg=#571F1F
+hi Boolean         guifg=#CD5C5C
 hi Character       guifg=#E6DB74
-hi Number          guifg=#571F1F
+hi Number          guifg=#CD5C5C
 hi String          guifg=#E6DB74 guibg=#242829
 hi Conditional     guifg=#43AB59               gui=bold
-hi Constant        guifg=#571F1F             gui=bold
+hi Constant        guifg=#CD5C5C               gui=bold
 hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#71ABC2
 hi Delimiter       guifg=#8F8F8F
 hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
-hi DiffDelete      guifg=#571F1F guibg=#571F1F
+hi DiffDelete      guifg=#CD5C5C guibg=#571F1F
 hi DiffText                      guibg=#4C4745 gui=italic,bold
 
 hi Directory       guifg=#d1c79e               gui=bold
-hi Error           guifg=#571F1F guibg=#571F1F
+hi Error           guifg=#CD5C5C guibg=#571F1F
 hi ErrorMsg        guifg=#43AB59 guibg=#232526 gui=bold
 hi Exception       guifg=#d1c79e               gui=bold
-hi Float           guifg=#571F1F
+hi Float           guifg=#CD5C5C
 hi FoldColumn      guifg=#465457 guibg=#000000
 hi Folded          guifg=#465457 guibg=#000000
 hi Function        guifg=#d1c79e
@@ -95,7 +95,7 @@ hi Typedef         guifg=#71ABC2
 hi Type            guifg=#71ABC2               gui=bold
 hi Underlined      guifg=#808080               gui=underline
 
-hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
+hi VertSplit       guifg=#080808 guibg=#080808 gui=bold
 hi VisualNOS                     guibg=#403D3D
 hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
@@ -106,5 +106,5 @@ hi Comment         guifg=#465457
 hi CursorLine                    guibg=#293739
 hi CursorColumn                  guibg=#293739
 hi LineNr          guifg=#7F7F7F guibg=#232526
-hi NonText         guifg=#7F7F7F guibg=#232526
+hi NonText         guifg=#232526 guibg=#232526
 
