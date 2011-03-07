@@ -11,7 +11,7 @@ the wonderful theme and FocusPoint is the product.
 
 # Screenshot
 
-[![Screenshot](http://imgur.com/20FpJ.png)](http://imgur.com/20FpJ.png)
+[![Screenshot](http://i.imgur.com/20FpJ.png)](http://imgur.com/20FpJ.png)
 
 # Notes
 
