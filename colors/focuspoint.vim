@@ -32,7 +32,7 @@ hi Cursor         guifg=#000000 guibg=#F8F8F0
 hi Debug          guifg=#BCA3A3 gui=bold
 hi Define         guifg=#71ABC2
 hi Delimiter      guifg=#8F8F8F
-hi DiffAdd        guibg=#13354A
+hi DiffAdd        guifg=#94FFAB guibg=#3E804C
 hi DiffChange     guifg=#89807D guibg=#4C4745
 hi DiffDelete     guifg=#CD5C5C guibg=#571F1F
 hi DiffText       guibg=#4C4745 gui=italic,bold
@@ -107,6 +107,7 @@ hi CursorLine     guibg=#293739
 hi CursorColumn   guibg=#293739
 hi LineNr         guifg=#7F7F7F guibg=#232526
 hi NonText        guifg=#232526 guibg=#232526
+hi ExtraWhitespace guibg=#CD5C5C
 
 if &t_Co > 255
     hi Boolean        ctermfg=167
@@ -114,18 +115,18 @@ if &t_Co > 255
     hi Number         ctermfg=167
     hi String         ctermfg=221 ctermbg=235
     hi Conditional    ctermfg=35  cterm=bold
-    hi Constant       ctermfg=167   cterm=bold
+    hi Constant       ctermfg=167 cterm=bold
     hi Cursor         ctermfg=0   ctermbg=15
     hi Debug          ctermfg=131 cterm=bold
     hi Define         ctermfg=74
     hi Delimiter      ctermfg=245
-    hi DiffAdd        ctermbg=25
+    hi DiffAdd        ctermfg=121 ctermbg=35
     hi DiffChange     ctermfg=245 ctermbg=239
-    hi DiffDelete     ctermfg=167   ctermbg=1
-    hi DiffText       ctermbg=239 cterm=italic,bold
+    hi DiffDelete     ctermfg=167 ctermbg=1
+    hi DiffText       ctermbg=239 cterm=bold
 
     hi Directory      ctermfg=223 cterm=bold
-    hi Error          ctermfg=9   ctermbg=1
+    hi Error          ctermfg=15  ctermbg=1
     hi ErrorMsg       ctermfg=35  ctermbg=235 cterm=bold
     hi Exception      ctermfg=223 cterm=bold
     hi Float          ctermfg=167
@@ -138,8 +139,8 @@ if &t_Co > 255
 
     hi Keyword        ctermfg=35  cterm=bold
     hi Label          ctermfg=221 cterm=none
-    hi Macro          ctermfg=186 cterm=italic
-    hi SpecialKey     ctermfg=74  cterm=italic
+    hi Macro          ctermfg=186
+    hi SpecialKey     ctermfg=74
 
     hi MatchParen     ctermbg=238 cterm=bold
     hi ModeMsg        ctermfg=221
@@ -161,16 +162,16 @@ if &t_Co > 255
     hi SignColumn     ctermfg=223 ctermbg=235
     hi SpecialChar    ctermfg=35  ctermbg=235 cterm=bold
     hi SpecialComment ctermfg=239 cterm=bold
-    hi Special        ctermfg=74  cterm=italic
-    hi SpecialKey     ctermfg=245 cterm=italic
+    hi Special        ctermfg=74
+    hi SpecialKey     ctermfg=245
     hi Statement      ctermfg=35  cterm=bold
     hi StatusLine     ctermfg=238 ctermbg=15
     hi StatusLineNC   ctermfg=243 ctermbg=235
-    hi StorageClass   ctermfg=179 cterm=italic
+    hi StorageClass   ctermfg=179
     hi Structure      ctermfg=74
-    hi Tag            ctermfg=35  cterm=italic
+    hi Tag            ctermfg=35
     hi Title          ctermfg=214
-    hi Todo           ctermfg=0  ctermbg=74  cterm=bold
+    hi Todo           ctermfg=0   ctermbg=74  cterm=bold
 
     hi Typedef        ctermfg=74
     hi Type           ctermfg=74  cterm=bold
@@ -202,11 +203,11 @@ else
     hi DiffAdd        ctermbg=4
     hi DiffChange     ctermfg=8  ctermbg=0
     hi DiffDelete     ctermfg=9  ctermbg=1
-    hi DiffText       ctermbg=0  cterm=italic,bold
+    hi DiffText       ctermbg=0  cterm=bold
 
     hi Directory      ctermfg=11 cterm=bold
-    hi Error          ctermfg=9  ctermbg=1
-    hi ErrorMsg       ctermfg=6  ctermbg=0  cterm=bold
+    hi Error          ctermfg=15 ctermbg=1
+    hi ErrorMsg       ctermfg=6  ctermbg=0 cterm=bold
     hi Exception      ctermfg=11 cterm=bold
     hi Float          ctermfg=9
     hi FoldColumn     ctermfg=8  ctermbg=0
@@ -218,8 +219,8 @@ else
 
     hi Keyword        ctermfg=6  cterm=bold
     hi Label          ctermfg=11 cterm=none
-    hi Macro          ctermfg=3  cterm=italic
-    hi SpecialKey     ctermfg=4  cterm=italic
+    hi Macro          ctermfg=3
+    hi SpecialKey     ctermfg=4
 
     hi MatchParen     ctermbg=0  cterm=bold
     hi ModeMsg        ctermfg=11
@@ -239,27 +240,27 @@ else
     hi Search         ctermfg=15 ctermbg=0
     " marks column
     hi SignColumn     ctermfg=11 ctermbg=0
-    hi SpecialChar    ctermfg=6  ctermbg=0  cterm=bold
+    hi SpecialChar    ctermfg=6  ctermbg=0 cterm=bold
     hi SpecialComment ctermfg=8  cterm=bold
-    hi Special        ctermfg=4   cterm=italic
-    hi SpecialKey     ctermfg=8  cterm=italic
+    hi Special        ctermfg=4
+    hi SpecialKey     ctermfg=8
     hi Statement      ctermfg=6  cterm=bold
     hi StatusLine     ctermfg=0  ctermbg=15
     hi StatusLineNC   ctermfg=8  ctermbg=0
-    hi StorageClass   ctermfg=3  cterm=italic
+    hi StorageClass   ctermfg=3
     hi Structure      ctermfg=4
-    hi Tag            ctermfg=6  cterm=italic
+    hi Tag            ctermfg=6
     hi Title          ctermfg=3
-    hi Todo           ctermfg=0 ctermbg=4  cterm=bold
+    hi Todo           ctermfg=0  ctermbg=4 cterm=bold
 
     hi Typedef        ctermfg=4
     hi Type           ctermfg=4  cterm=bold
     hi Underlined     ctermfg=8
 
-    hi VertSplit      ctermfg=0  ctermbg=0  cterm=bold
+    hi VertSplit      ctermfg=0  ctermbg=0 cterm=bold
     hi VisualNOS      ctermbg=7
     hi Visual         ctermbg=7
-    hi WarningMsg     ctermfg=15 ctermbg=8  cterm=bold
+    hi WarningMsg     ctermfg=15 ctermbg=8 cterm=bold
     hi WildMenu       ctermfg=4  ctermbg=0
 
     hi Normal         ctermfg=15 ctermbg=0
