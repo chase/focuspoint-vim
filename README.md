@@ -1,23 +1,35 @@
 # FocusPoint: an epic color file for Vim
 
-After hours upon hours of coding, my eyes began to beg for mercy from
-the friendly and warm colors of Molokai. I sought to improve
-the wonderful theme and FocusPoint is the product.
+[![Screenshot](http://i.imgur.com/9VIf6KQ.png)](http://i.imgur.com/9VIf6KQ.png)
 
-# Installation
+FocusPoint aims to maintain a balance between the bright, friendly colors of Molokai and the dim, relaxed colors of Zenburn.
 
-* Copy 'focuspoint.vim' to your ~/.vim/colors folder.
-* That's it!
+**NEW!** FocusPoint supports full-color, 256-color, and 16-color modes.
 
-or use this little terminal trick:
-`curl https://github.com/chase/focuspoint-vim/raw/master/colors/focuspoint.vim > ~/.vim/colors/focuspoint.vim`
+## Install
 
-# Screenshot
+### Using [Vundle](https://github.com/gmarik/vundle)
 
-[![Screenshot](http://i.imgur.com/20FpJ.png)](http://imgur.com/20FpJ.png)
+1. Add the following to your `.vimrc` where other bundles are located:
+       
+		Bundle 'chase/focuspoint-vim'
 
-# Notes
+2. Run from command line:
 
-There is no 256 color mode, as I prefer VIM defaults when accessing a
-remote system through SSH.
+		$ vim +BundleInstall
+
+### Using [pathogen](https://github.com/tpope/vim-pathogen)
+
+1. Check out the repository into your bundle path:
+
+        $ cd ~/.vim/bundle
+        $ git clone git://github.com/chase/focuspoint-vim.git
+
+### Normal
+
+1. Copy `colors/focuspoint.vim` to your ~/.vim/colors folder.
+
+
+## Airline Support
+If you use Airline and want a matching theme, try [vim-airline-focuspoint](https://github.com/chase/vim-airline-focuspoint).
 
