@@ -60,10 +60,10 @@ hi MoreMsg        guifg=#E6DB74
 hi Operator       guifg=#43AB59
 
 " complete menu
-hi Pmenu          guifg=#87CEEB guibg=#000000
-hi PmenuSel       guibg=#808080
-hi PmenuSbar      guibg=#080808
-hi PmenuThumb     guifg=#87CEEB
+hi Pmenu          guifg=#F8F8F2 guibg=#465457
+hi PmenuSel       guifg=#232526 guibg=#43AB59
+hi PmenuSbar      guibg=#43AB59
+hi PmenuThumb     guifg=#F8F8F2
 
 hi PreCondit      guifg=#d1c79e gui=bold
 hi PreProc        guifg=#d1c79e
@@ -133,7 +133,7 @@ if &t_Co > 255
     hi FoldColumn     ctermfg=239 ctermbg=0
     hi Folded         ctermfg=239 ctermbg=0
     hi Function       ctermfg=223
-    hi Identifier     ctermfg=179
+    hi Identifier     ctermfg=179 cterm=none
     hi Ignore         ctermfg=8   ctermbg=0
     hi IncSearch      ctermfg=186 ctermbg=0
 
@@ -148,10 +148,10 @@ if &t_Co > 255
     hi Operator       ctermfg=35
 
     " complete menu
-    hi Pmenu          ctermfg=117 ctermbg=0
-    hi PmenuSel       ctermbg=8
-    hi PmenuSbar      ctermbg=232
-    hi PmenuThumb     ctermfg=117
+    hi Pmenu          ctermfg=15 ctermbg=238
+    hi PmenuSel       ctermfg=235 ctermbg=35
+    hi PmenuSbar      ctermbg=35
+    hi PmenuThumb     ctermfg=15
 
     hi PreCondit      ctermfg=223 cterm=bold
     hi PreProc        ctermfg=223
@@ -213,7 +213,7 @@ else
     hi FoldColumn     ctermfg=8  ctermbg=0
     hi Folded         ctermfg=8  ctermbg=0
     hi Function       ctermfg=11
-    hi Identifier     ctermfg=3
+    hi Identifier     ctermfg=3  cterm=none
     hi Ignore         ctermfg=8  ctermbg=0
     hi IncSearch      ctermfg=3  ctermbg=0
 
@@ -228,10 +228,10 @@ else
     hi Operator       ctermfg=6
 
     " complete menu
-    hi Pmenu          ctermfg=14 ctermbg=0
-    hi PmenuSel       ctermbg=8
-    hi PmenuSbar      ctermbg=0
-    hi PmenuThumb     ctermfg=14
+    hi Pmenu          ctermfg=15 ctermbg=8
+    hi PmenuSel       ctermfg=15 ctermbg=2
+    hi PmenuSbar      ctermbg=2
+    hi PmenuThumb     ctermfg=15
 
     hi PreCondit      ctermfg=11 cterm=bold
     hi PreProc        ctermfg=11
