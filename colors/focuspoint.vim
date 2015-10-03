@@ -121,7 +121,7 @@ if &t_Co > 255
     hi Define         ctermfg=74
     hi Delimiter      ctermfg=245
     hi DiffAdd        ctermfg=121 ctermbg=35
-    hi DiffChange     ctermfg=245 ctermbg=239
+    hi DiffChange     ctermfg=245 ctermbg=237
     hi DiffDelete     ctermfg=167 ctermbg=1
     hi DiffText       ctermbg=239 cterm=bold
 
